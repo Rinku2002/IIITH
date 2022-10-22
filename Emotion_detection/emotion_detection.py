@@ -6,8 +6,7 @@ import cv2
 import numpy as np
 from playsound import playsound
 import os
-import vlc
-# for playing note.mp3 file
+# import vlc
 
 face_classifier = cv2.CascadeClassifier(r'C:\Users\DELL\Desktop\data\Data SCience\IIIT Hyderabad\Emotion_detection\face.xml')
 classifier =load_model(r'C:\Users\DELL\Desktop\data\Data SCience\IIIT Hyderabad\Emotion_detection\model.h5')
